@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">FinTrack</string>
+    <string name="welcome_text">Welcome to</string>
+    <string name="logo">FinTrack</string>
+    <string name="CreateAccountTxt">Create Account</string>
+    <string name="loginTxt">Login</string>
+    <string name="nameProfile">My Profile</string>
+    <string name="btnExplore">Explore</string>
+    <string name="nextBtn">Next</string>
+    <string name="onBoardingText">Ready for some wins? Start tracking, it’s easy!</string>
+    <string name="onBoardingText2">Take control of your money, and create habits that last a lifetime.</string>
+    <string name="btnSignUp">Sign up</string>
+    <string name="welcomeSentence">Welcome! Let’s customize FinTrack for your finance goals.</string>
+    <string name="btnContinue">Continue</string>
+    <string name="orText">OR</string>
+    <string name="btnFacebook">Continue with FaceBook</string>
+    <string name="btnGoogle">Continue with Google</string>
+    <string name="privacyText">We will never post anything without your permission.</string>
+    <string name="welcomeTxt2">Welcome</string>
+    <string name="Budget">Enter your Monthly Budget : </string>
+    <string name="Age">Enter your Age : </string>
+    <string name="Currency">What is your Preferred Currency?</string>
+    <string name="height">What is your height?</string>
+    <string name="Country">What is your Country?</string>
+    <string name="email">Enter your Email</string>
+    <string name="pwd">Enter your password</string>
+    <string name="re_pwd">Re-Enter your password</string>
+    <string name="finishBtn">Finish</string>
+    <string name="dashboard_text">Today\'s Dashboard</string>
+    <string name="myInfo">My Info</string>
+    <string name="currencyProfile">Currency : </string>
+    <string name="Profilename">name : </string>
+    <string name="emailProfile">Email: </string>
+    <string name="connect">Connect App and Devices</string>
+    <string name="myAcc">My Account</string>
+    <string name="edtProfile">Edit Profile</string>>
+    <string name="appearance">Appearance</string>
+    <string name="dltAcc">Delete Account</string>
+    <string name="logOut">Log Out</string>
+    <string name="btnSettings">Settings</string>
+    <string name="btnUsername">Enter your Username</string>
+    <string name="enterFood">Enter Food Name</string>
+    <string name="delete_transaction">Delete Transaction</string>
+    <string name="enterGrams">Grams</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="profile">Profile</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="user_name">User Name</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="budget">Budget</string>
+    <string name="rs_300000">RS:300000</string>
+    <string name="currency">Currency</string>
+    <string name="rs">RS</string>
+    <string name="email2">Email</string>
+    <string name="sri_lanka">Sri Lanka</string>
+    <string name="example_example_com">example@example.com</string>
+    <string name="country">Country</string>
+    <string name="label">Label</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="todoo">TODO</string>
+    <string name="add_transaction">Add transaction</string>
+    <string name="amount1">Amount</string>
+    <string name="description1">Description</string>
+    <string name="label2">Label</string>
+    <string name="update_transaction">Update transaction</string>
+    <string name="date_2025_04_17">Date: 2025-04-17</string>
+    <string name="amount_250_00">Amount: $250.00</string>
+    <string name="category_groceries">Category: Groceries</string>
+    <string name="note_weekly_shopping_items">Note: Weekly shopping items</string>
+    <string name="cancel">Cancel</string>
+    <string name="amount2">Amount</string>
+    <string name="category">Category</string>
+    <string name="date_e_g_2025_04_172">Date (e.g. 2025-04-17)</string>
+    <string name="note2">Note</string>
+    <string name="save2">Save</string>
+    <string name="update_transaction2">Update Transaction</string>
+
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="add_new_budget">Update Budget</string>
+    <string name="amount3">Amount</string>
+    <string name="budget_name">Budget Name</string>
+    <string name="note_optional">Note (optional)</string>
+    <string name="start_date">Start Date</string>
+    <string name="save3">Save</string>
+    <string name="end_date">End Date</string>
+    <string name="cancel3">Cancel</string>
+    <string name="account">Account</string>
+    <string name="amount7">Amount</string>
+    <string name="save_transaction">Save Transaction</string>
+    <string name="note">Note</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="select_date">Select Date</string>
+    <string name="category8">Category</string>
+    <string name="add_new_budgete">Add New Budget</string>
+    <string name="y">Amount</string>
+    <string name="save1">Save</string>
+    <string name="budget_names">Budget Name</string>
+    <string name="cancell">Cancel</string>
+    <string name="end_date_yyyy_mm_dd">End Date (yyyy-MM-dd)</string>
+    <string name="start_date_yyyy_mm_dd">Start Date (yyyy-MM-dd)</string>
+    <string name="_400">$400</string>
+    <string name="transactions">Transactions</string>
+    <string name="_4002">$400</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="_300">$300</string>
+    <string name="add">Add</string>
+    <string name="expenses">Expense</string>
+    <string name="budgets">Budget</string>
+    <string name="name_groceries_n_namount_5000_n_nfrom_2025_04_01_n_nto_2025_04_30_n_nnote_monthly_grocery_budget">Name: Groceries\n\nAmount: 5000\n\nFrom: 2025-04-01\n\nTo: 2025-04-30\n\nNote: Monthly grocery budget</string>
+    <string name="current_budget">Current Budget</string>
+    <string name="delete_budget">Delete Budget</string>
+    <string name="note_optionals">Note (optional)</string>
+    <string name="view_budget_history">View Budget History</string>
+    <string name="enter_your_full_name">Enter your Full Name:</string>
+    <string name="what_is_your_address">What is your Address</string>
+    <string name="restore">restore</string>
+    <string name="settings_restore">Restore</string>
+    <string name="backup">Backup</string>
+    <string name="settings_backup">Backup</string>
+    <string name="btn_save">Save\n</string>
+    <string name="hint_currency">Currency</string>
+    <string name="settings_currency">Currecy</string>
+    <string name="title">Title\n</string>
+    <string name="budget_title">Budget Title</string>
+    <string name="add_new_expense">Add New Expense</string>
+    <string name="Todo">sd</string>
+    <string name="openingText">Find your future\n</string>
+
+
+    <item name="tvWater" type="id" />
+    <item name="tvWater2" type="id" />
+    <item name="etWaterIntake2" type="id" />
+    <item name="btnAddWater2" type="id" />
+    <item name="btnSaveWater" type="id" />
+
+    <string-array name="budget_categories">
+        <item>Salary</item>
+        <item>Bonus</item>
+        <item>Gift</item>
+        <item>Investment</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

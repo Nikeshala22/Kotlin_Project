@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register1"
+    android:background="@color/darkBlue">
+
+    <ImageView
+        android:id="@+id/btnBack2"
+        android:layout_width="23dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/welcomeTxt2"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnBack2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/btnAge"
+        android:layout_width="314dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="212dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/Age"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/btnHeight"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/what_is_your_address"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnAge"
+        app:layout_constraintStart_toStartOf="@+id/btnAge"
+        app:layout_constraintEnd_toEndOf="@+id/btnAge" />
+
+    <EditText
+        android:id="@+id/btnCountry"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/Country"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btnHeight"
+        app:layout_constraintStart_toStartOf="@+id/btnHeight"
+        app:layout_constraintEnd_toEndOf="@+id/btnHeight" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/button_background2"
+        android:text="@string/nextBtn"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

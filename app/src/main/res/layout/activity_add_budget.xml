@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addBudgetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/lightBlue"
+    tools:context=".AddBudget">
+
+    <ImageView
+        android:id="@+id/btnBack1"
+        android:layout_width="23dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <LinearLayout
+        android:id="@+id/formContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/addBudgetTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_budgete"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Budget Name -->
+        <EditText
+            android:id="@+id/budgetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/budget_title"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFDE7"
+            android:background="@drawable/edittext_border"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Budget Amount -->
+        <EditText
+            android:id="@+id/budgetAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/y"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFDE7"
+            android:background="@drawable/edittext_border"
+            android:inputType="number"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Start Date -->
+        <EditText
+            android:id="@+id/startDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/start_date_yyyy_mm_dd"
+            android:inputType="date"
+            android:padding="12dp"
+            android:focusable="false"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFDE7"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="16dp" />
+
+        <!-- End Date -->
+        <EditText
+            android:id="@+id/endDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/end_date_yyyy_mm_dd"
+            android:padding="12dp"
+            android:focusable="false"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFDE7"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Budget Category Dropdown -->
+        <Spinner
+            android:id="@+id/budgetCategorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_border"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:spinnerMode="dropdown" />
+
+        <!-- Note -->
+        <EditText
+            android:id="@+id/budgetNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/note_optionals"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFDE7"
+            android:background="@drawable/edittext_border"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Save and Cancel Buttons -->
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/saveBudgetBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save1"
+                android:textColor="@color/white"
+                android:background="@color/darkBlue"
+                android:padding="12dp" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/cancelBudgetBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancell"
+                android:textColor="@color/white"
+                android:background="@color/darkBlue"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- View Budget History Button -->
+        <Button
+            android:id="@+id/viewBudgetHistoryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Budget History"
+            android:textColor="@color/white"
+            android:background="@color/darkBlue"
+            android:padding="12dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

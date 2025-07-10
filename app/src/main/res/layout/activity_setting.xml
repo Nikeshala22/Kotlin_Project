@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting"
+    android:background="@color/darkBlue">
+
+
+    <ImageView
+        android:id="@+id/btnBack5"
+        android:layout_width="23dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnSettings"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnBack5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/myAcc"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_background3"
+        android:text="@string/myAcc"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/edtProfile"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background3"
+        android:text="@string/edtProfile"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/myAcc"
+        app:layout_constraintStart_toStartOf="@+id/myAcc"
+        app:layout_constraintTop_toBottomOf="@+id/myAcc" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/myGoals"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background3"
+        android:text="Budget"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/edtProfile"
+        app:layout_constraintStart_toStartOf="@+id/edtProfile"
+        app:layout_constraintTop_toBottomOf="@+id/edtProfile" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appearance"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background3"
+        android:text="Expenses"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/myGoals"
+        app:layout_constraintStart_toStartOf="@+id/myGoals"
+        app:layout_constraintTop_toBottomOf="@+id/myGoals" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dltAcc"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background3"
+        android:text="@string/dltAcc"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/appearance"
+        app:layout_constraintStart_toStartOf="@+id/appearance"
+        app:layout_constraintTop_toBottomOf="@+id/appearance" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogOut"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background3"
+        android:text="@string/logOut"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/dltAcc"
+        app:layout_constraintStart_toStartOf="@+id/dltAcc"
+        app:layout_constraintTop_toBottomOf="@+id/dltAcc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
